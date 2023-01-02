@@ -3,6 +3,7 @@ Copy all of tables in mssql to postgres Database.
 
 ## What does it?
 Mostly to copy the table from one database to another database, first you have to create the exact table structure for the new table as old one, using somethiing like DDL, then copy the table entries from one table to another.
+
 But cpdb simplify all of the above procedures, just copy table from mssql to postgresql.
 
 ## Prerequisites
