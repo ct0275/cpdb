@@ -1,0 +1,9 @@
+(
+'[Note] I wanna except these tables'
+--,'dbo.direct_application_form_enc'
+--,'dbo.direct_application_product_pamphlet_enc'
+--,'dbo.direct_application_template'
+--,'dbo.direct_assur_cust_his_detail_2021'
+--,'dbo.direct_ess_mobile_201905'
+--,'dbo.direct_ess_prps_pdf'
+)

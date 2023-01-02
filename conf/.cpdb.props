@@ -1,0 +1,12 @@
+CONF_DIR=./conf
+DUMP_DIR=./dump
+ASIS_HOST=10.129.99.49
+ASIS_PORT=3180
+ASIS_DB=lina_web
+ASIS_USER=lina_mig
+ASIS_PSWD=U2FsdGVkX1+kyVWSRs4M7cVwugrnHMn85IvI63pcl7E=
+TOBE_HOST=ldc-an2-dev-qadb-rds-qacluster.cluster-cxc6d80vgsym.ap-northeast-2.rds.amazonaws.com
+TOBE_PORT=5432
+TOBE_DB=ldcchnldb
+TOBE_USER=chnladm
+TOBE_PSWD=U2FsdGVkX18W4lUKfLlkpFK13zf5IgJxAF++eYdDODY=
