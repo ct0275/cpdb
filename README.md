@@ -105,4 +105,26 @@ dbo.direct_application_form_enc copy completed. [ OK ]
 
 -- ./cpdb.sh -lw : lina_web
 [ec2-user@ip-10-129-97-208 cpdb]$ ./cpdb.sh -lw
+COPY 15213
+dbo.aaa_test copy completed. [ OK ]
+
+-- ./cpdb.sh -ld -t dbo.bbb_test : specify one table in lina_direct
+[ec2-user@ip-10-129-97-208 cpdb]$ ./cpdb.sh -ld -t dbo.direct_application_form_enc
+COPY 15
+dbo.direct_application_form_enc copy completed. [ OK ]
+
+-- ./cpdb.sh -lw -t dbo.aaa_test : specify one table in lina_web
+[ec2-user@ip-10-129-97-208 cpdb]$ ./cpdb.sh -lw -t lina_web.clickok_illustration
+COPY 15213
+lina_web.clickok_illustration copy completed. [ OK ]
+...
+
+Before execute cpdb.sh, you should grant priviledges to psql user.
+
+grant usage on schema cpmgldds to chnladm;
+grant usage on schema cpmglwds to chnladm;
+grant usage on schema cpmglwls to chnladm;
+grant all on schema cpmgldds to chnladm;
+grant all on schema cpmglwds to chnladm;
+grant all on schema cpmglwls to chnladm;
 ...
